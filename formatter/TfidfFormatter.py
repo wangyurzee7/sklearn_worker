@@ -44,7 +44,8 @@ class TfidfFormatter:
                     if not l in self.label2id:
                         self.label2id[l]=len(self.label2id)
                 self.id2label=all_labels
-                labels=[self.label2id[l] for l in labels]
+        if self.task=="Classification" and (labels is not None):
+            labels=[self.label2id[l] for l in labels]
         
         texts=self.vectorizer.transform(texts)
         

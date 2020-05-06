@@ -1,7 +1,9 @@
 from .SVM import SVM
+from .DecisionTree import DecisionTree
 
 model_list = {
     "SVM": SVM,
+    "DecisionTree": DecisionTree,
 }
 
 

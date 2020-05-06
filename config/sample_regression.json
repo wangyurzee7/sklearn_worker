@@ -2,7 +2,7 @@
     "formatter": "TfidfFormatter",
     "text_use_which": "input",
     "label_use_which": "label_reg",
-    "model": "SVM",
+    "model": "DecisionTree",
     "task": "Regression",
     "model_params": {},
     "accuracy_methods": [

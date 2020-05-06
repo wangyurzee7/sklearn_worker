@@ -1,0 +1,27 @@
+[
+    {
+        "input": "凤梨真好吃",
+        "label_clas": 1,
+        "label_reg": 90
+    },
+    {
+        "input": "凤梨简直巨好吃",
+        "label_clas": 1,
+        "label_reg": 100
+    },
+    {
+        "input": "生梨不好吃",
+        "label_clas": 0,
+        "label_reg": 60
+    },
+    {
+        "input": "凤梨真难吃",
+        "label_clas": -1,
+        "label_reg": 20
+    },
+    {
+        "input": "火龙果非常难吃",
+        "label_clas": -1,
+        "label_reg": 0
+    }
+]

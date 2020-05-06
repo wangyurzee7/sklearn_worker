@@ -1,0 +1,27 @@
+[
+    {
+        "input": "菠萝真好吃",
+        "label_clas": 1,
+        "label_reg": 90
+    },
+    {
+        "input": "菠萝简直巨好吃",
+        "label_clas": 1,
+        "label_reg": 100
+    },
+    {
+        "input": "苹果不好吃",
+        "label_clas": 0,
+        "label_reg": 60
+    },
+    {
+        "input": "菠萝真难吃",
+        "label_clas": -1,
+        "label_reg": 20
+    },
+    {
+        "input": "香蕉非常难吃",
+        "label_clas": -1,
+        "label_reg": 0
+    }
+]

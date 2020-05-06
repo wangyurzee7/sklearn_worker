@@ -1,0 +1,28 @@
+{
+    "formatter": "TfidfFormatter",
+    "text_use_which": "input",
+    "label_use_which": "label_clas",
+    
+    "model": "SVM",
+    "task": "Classification",
+    "model_params":{
+        "C": 1,
+        "kernel": "linear"
+    },
+    
+    "detail_printer": ["TopTenWords"],
+    
+    "accuracy_methods": ["macro-f1","macro-precision","macro-recall","micro-f1","accuracy","RMSE"],
+    
+    "dataset_format": "json",
+    "train_file_path": "data/",
+    "train_file_list": ["sample1/train.json","sample2/train.json"],
+    "valid_file_path": "data/",
+    "valid_file_list": ["sample1/valid.json","sample2/valid.json"],
+    "test_file_path": "data/",
+    "test_file_list": ["sample1/test.json","sample2/test.json"],
+
+    "test_output_dumper": "JsonFormatOutputDumper",
+
+    "shuffle": true
+}

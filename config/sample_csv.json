@@ -1,0 +1,29 @@
+{
+    "formatter": "TfidfFormatter",
+    "text_use_which": "input",
+    "label_use_which": "label",
+    
+    "model": "SVM",
+    "task": "Classification",
+    "model_params":{
+        "C": 1,
+        "kernel": "linear"
+    },
+    
+    "detail_printer": ["TopTenWords"],
+    
+    "accuracy_methods": ["macro-f1","macro-precision","macro-recall","micro-f1","accuracy","RMSE"],
+    
+    "dataset_format": "csv",
+    "csv_separator": ",",
+    "train_file_path": "data/sample1/",
+    "train_file_list": ["train.csv"],
+    "valid_file_path": "data/sample1/",
+    "valid_file_list": ["valid.csv"],
+    "test_file_path": "data/sample1/",
+    "test_file_list": ["valid.csv"],
+
+    "test_output_dumper": "CsvFormatOutputDumper",
+
+    "shuffle": true
+}

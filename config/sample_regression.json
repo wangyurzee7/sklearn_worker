@@ -1,0 +1,28 @@
+{
+    "formatter": "TfidfFormatter",
+    "text_use_which": "input",
+    "label_use_which": "label_reg",
+    "model": "SVM",
+    "task": "Regression",
+    "model_params": {},
+    "accuracy_methods": [
+        "MSE",
+        "RMSE"
+    ],
+
+    "dataset_format": "json",
+    "train_file_path": "data/{}/",
+    "train_path_params": ["sample1","sample2"],
+    "train_file_list": ["train.json"],
+    "valid_file_path": "data/{}/",
+    "valid_path_params": ["sample1","sample2"],
+    "valid_file_list": ["valid.json"],
+    "test_file_path": "data/{}/",
+    "test_path_params": ["sample1","sample2"],
+    "test_file_list": ["test.json"],
+
+    "test_output_dumper": "JsonFormatOutputDumper",
+
+    "save_log": true,
+    "shuffle": true
+}
